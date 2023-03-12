@@ -4,4 +4,4 @@ Within this application, the textfield data is displayed into a string when the 
 
 ### To use the project.
 
-use `git clone URL` to 
+use `git clone URL` to pull the repo
