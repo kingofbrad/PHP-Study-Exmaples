@@ -1,0 +1,31 @@
+body {
+    background-color: #19191B;
+    color: #C0C0C0;
+    display: flex;
+}
+
+.form {
+    margin: 30px;
+    padding: 20pxs;
+    gap: 20px;
+    border: white 2px solid;
+    width: 200px;
+    height: 400px;
+}
+/* 
+.formInputSection {
+} */
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#table {
+    background-color: purple;
+}
