@@ -1,8 +1,13 @@
 # Displaying User Detail using PHP
 
 ## Table of Contents:
-[What is this project](#what-is-this-project)\
-[How to use the project](#how-to-use-the-project)
+1. [What is this project](#what-is-this-project)
+2. [How to use the project](#how-to-use-the-project)
+    1. [Web Server](#web-server)
+    2. [SQL Database](#sql-database)
+    3. [Cloning](#cloning)
+    4. [Setting Up the Files](#setting-up-in-files)
+3. [Running the Project](#running-the-project)
 
 
 
@@ -50,7 +55,7 @@ If you are using the same field names then ignore this step and head to [Running
 
 First off, go to the `index.php` and edit the following fields:
 
-```
+```php
 $servername = "localhost";
 $username = "username";
 $password = "password";
@@ -61,7 +66,7 @@ keep the servername the same for now unless you have your SQL database on the di
 
 Once you have changed them, then you will have to change the corresponding fields to match all the colmuns you made in the SQL database. This includes the form HTML elements as well.
 
-```
+```php
 <td>" . $row["id"] . "</td>
 <td>" . $row["firstname"] . "</td>
 <td>". $row["lastname"]. "</td>
@@ -69,7 +74,7 @@ Once you have changed them, then you will have to change the corresponding field
 <td>" . $row["age"] . "</td>
 ```
 
-```
+```html
  <div class="formInputSection">
                 <label for="firstname">First name:</label><br>
                 <input type="text" id="firstname" name="firstname">
@@ -92,4 +97,8 @@ Once you have changed them, then you will have to change the corresponding field
 Once all the fields have been changed in the `index.php`, do the same in the `insert.php` file as well. 
 
 ### Running the project
-When everything is setup then run the server if not already 
+When everything is setup then run the server if not already and navigate to the localhost in the browser. The url will usually look like this. 
+>`localhost:8888` or `localhost:3000`
+
+Then head to the folder where this project is located at. 
+Everything should be running perfectly fine if you have used the same fields, if you are having problems then please look through all the different fields you have changed and see if they match up. 
