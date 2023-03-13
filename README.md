@@ -9,4 +9,6 @@ Within week 7, controlling how to post from a form to a php server and having it
 [Week 7](https://github.com/kingofbrad/PHP-Study-Exmaples/tree/main/Week_7)
 the first folder within week 7 is the displaying data from a input field and then have it displayed in the webpage.
 
+this is a test
 ### Week 8
+
