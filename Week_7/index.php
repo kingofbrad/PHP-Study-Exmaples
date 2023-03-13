@@ -45,7 +45,7 @@
             </div>
             <div class="formInputSection">
                 <label for="age">Age:</label><br>
-                <input type="number" id="age" name="age">
+                <input type="text" id="age" name="age">
             </div>
 
             <input type="submit" value="Submit">
